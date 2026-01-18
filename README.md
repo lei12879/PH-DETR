@@ -5,15 +5,15 @@
 ##  ⚙️Installation
 We use  `python=3.10,pytorch=2.0.1,cuda=11.7`. Other versions may also be available. Clone the repository locally and install with
 ```
-git clone https://github.com/lei12879/PAE-DETR.git
-cd PAE-DETR/PAE-DETR
+git clone https://github.com/lei12879/PH-DETR.git
+cd PH-DETR/PH-DETR
 ```
 ## ⚙️Example conda environment setup
 
 ### 1. Create environment
 ```
-conda create --name pae_detr python=3.10 -y
-conda activate pae_detr
+conda create --name ph_detr python=3.10 -y
+conda activate ph_detr
 ```
 ### 2. Install pytorch [Previous PyTorch Versions | PyTorch](https://pytorch.org/get-started/previous-versions/)
 ```
