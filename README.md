@@ -1,6 +1,6 @@
-# PAE-DETR
+# PH-DETR
 
-**Official implementation** of  *"PAE-DETR"* .
+**Official implementation** of  *"PH-DETR"* .
 
 ##  ⚙️Installation
 We use  `python=3.10,pytorch=2.0.1,cuda=11.7`. Other versions may also be available. Clone the repository locally and install with
