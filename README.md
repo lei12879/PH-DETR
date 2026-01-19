@@ -81,19 +81,19 @@ You can modify config [`img_folder`](https://github.com/lei12879/PAE-DETR/blob/m
 ### Single-GPU Training
 ```bash
 # VisDrone 
-python train.py -c configs/paedetr/PAEDETR_visdrone.yml
+python train.py -c configs/phdetr/PHDETR_visdrone.yml
 
 # HazyDet
-python train.py -c configs/paedetr/PAEDETR_hzdet.yml
+python train.py -c configs/phdetr/PHDETR_hzdet.yml
 
 # DroneVehicle
-python train.py -c configs/paedetr/PAEDETR_dronevehicle.yml
+python train.py -c configs/phdetr/PHDETR_dronevehicle.yml
 
 # TinyPerson 
-python tools/train.py -c configs/paedetr/PAEDETR_tinyperson.yml
+python tools/train.py -c configs/phdetr/PHDETR_tinyperson.yml
 
 # Cityscapes
-python train.py -c configs/paedetr/PAEDETR_cityscape.yml
+python train.py -c configs/phdetr/PHDETR_cityscape.yml
 ```
 
 ### Multi-GPU Distributed Training
@@ -101,7 +101,7 @@ python train.py -c configs/paedetr/PAEDETR_cityscape.yml
 ```bash
 # 4 GPUs example
 python -m torch.distributed.launch --nproc_per_node=4 \
-    train.py -c configs/paedetr/PAEDETR_visdrone.yml 
+    train.py -c configs/phdetr/PHDETR_visdrone.yml 
 ```
 ### Testing
 ```bash
