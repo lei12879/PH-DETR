@@ -75,6 +75,15 @@ path/to/tinyperson/
 ```
 You can modify config [`img_folder`](https://github.com/lei12879/PAE-DETR/blob/main/configs/dataset/cityscapes_detection.yml)[`ann_file`](https://github.com/lei12879/PAE-DETR/blob/main/configs/dataset/cityscapes_detection.yml)
 
+## 🏋️ Pre-trained Models
+
+We provide pre-trained weights for all datasets reported in the paper:
+
+| Model | Dataset | mAP@[0.5:0.95] | Download |
+|-------|---------|----------------|----------|
+| PH-DETR | VisDrone | 32.0 | [PH-DETR_VisDrone.pth](weights/PH-DETR_VisDrone.pth) |
+| PH-DETR | HazyDet | 58.3| [PH-DETR_HazyDet.pth](weights/PH-DETR_HazyDet.pth) |
+| PH-DETR | DroneVehicle | 56.1 | [PH-DETR_DroneVehicle.pth](weights/PH-DETR_DroneVehicle.pth) |
 
 ## 🏋️ Training & Testing
 
