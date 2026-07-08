@@ -6,7 +6,7 @@ Copyright(c) 2023 lyuwenyu. All Rights Reserved.
 
 from .dfine import DFINE
 from .matcher import HungarianMatcher
-from .EPMFE import HybridEncoder
+from .ph_encoder import HybridEncoder
 
 from .dfine_decoder import DFINETransformer
 

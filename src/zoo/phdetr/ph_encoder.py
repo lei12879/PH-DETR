@@ -99,7 +99,7 @@ class CAFM(nn.Module):  # Cross Attention Fusion Module
 
 ##############CAFM#################################
 
-######################################## ICLR2025 PolaFormer start ########################################
+######################################## EPMFE ########################################
 
 class PolaLinearAttention(nn.Module):
     def __init__(self, dim, num_heads=8, qkv_bias=False, qk_scale=None, attn_drop=0., proj_drop=0., sr_ratio=1,
@@ -198,7 +198,7 @@ class PolaLinearAttention(nn.Module):
         x = self.proj_drop(x)
 
         return x
-######################################## ICLR2025 PolaFormer end ########################################
+######################################## EPMFE ########################################
 
 class ConvNormLayer_fuse(nn.Module):
     def __init__(self, ch_in, ch_out, kernel_size, stride, g=1, padding=None, bias=False, act=None):
