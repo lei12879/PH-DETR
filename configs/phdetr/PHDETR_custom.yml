@@ -6,7 +6,7 @@ __include__: [
   './include/dfine_hgnetv2.yml',
 ]
 
-output_dir: ./output/PAEDETR_custom
+output_dir: ./output/PHDETR_custom
 
 
 DFINE:
@@ -14,7 +14,7 @@ DFINE:
 
 HGNetv2:
   name: 'B2'
-  return_idx: [1, 2, 3]
+  return_idx: [0, 1, 2, 3]
   freeze_at: -1
   freeze_norm: False
   use_lab: True
