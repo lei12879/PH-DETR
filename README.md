@@ -81,7 +81,7 @@ We provide pre-trained weights for all datasets reported in the paper:
 
 | Model | Dataset | mAP@[0.5:0.95] | Download |
 |-------|---------|----------------|----------|
-| PH-DETR | VisDrone | 32.0 | [PH-DETR_VisDrone.pth](https://pan.baidu.com/s/1uhex3fr5NhpGzGvY8WFu8g) |
+| PH-DETR | VisDrone | 32.0 | [PH-DETR_VisDrone.pth](https://pan.baidu.com/s/1YOQ6_J92l0jJu6YHDv5q4A?pwd=wdsf ) |
 | PH-DETR | HazyDet | 58.3| [PH-DETR_HazyDet.pth](https://pan.baidu.com/s/121XIQoehYMQU9Z8U7OAC6g?pwd=3pdr) |
 | PH-DETR | DroneVehicle | 56.1 | [PH-DETR_DroneVehicle.pth](https://pan.baidu.com/s/175vW0JnILV0kuDOwCdQizw?pwd=kkkd) |
 
